@@ -1,0 +1,9 @@
+package: files 
+Version: 0.0.1
+Architecture: amd64
+Section: admin
+Essential: no
+Priority: optional
+Depends: minio,supervisor (>=4.1.0)
+Maintainer: opunix <francsic.simon@evalgo.org>
+Description: file management service based on minio s3 object storage
