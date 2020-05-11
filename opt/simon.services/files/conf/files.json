@@ -1,0 +1,6 @@
+{
+	"address":":8999",
+	"client":"files",
+	"secret":"secret",
+	"webroot":"/opt/simon.services/files/webroot"
+}
