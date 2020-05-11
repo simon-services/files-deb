@@ -4,7 +4,7 @@ all: build
 build:
 	mkdir tmp
 	rsync -ax --exclude tmp ./ tmp/
-	rm -fv tmp/Makefile
+	rm -rfv tmp/Makefile tmp/.git*
 	dpkg-deb --build tmp files-0.0.1-amd64.deb
 	rm -rf tmp
 
